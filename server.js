@@ -41,6 +41,7 @@ app.use(hpp());
 const whitelist = [
   "http://localhost:3000",
   "http://localhost:6062",
+  "http://localhost:7065",
   "https://volley.aliareef.com",
 ];
 

@@ -8,6 +8,7 @@ const initSocket = (server) => {
     cors: {
       origin: [
         "http://localhost:3000",
+        "http://localhost:7065",
         "http://localhost:6062",
         "https://volley.aliareef.com",
       ],
