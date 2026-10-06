@@ -7,9 +7,9 @@ const initSocket = (server) => {
   io = new Server(server, {
     cors: {
       origin: [
-        "http://localhost:3000",
         "http://localhost:7065",
-        "http://localhost:6062",
+        "http://localhost:3000",
+        "http://volley.aliareef.com",
         "https://volley.aliareef.com",
       ],
     },
