@@ -78,7 +78,7 @@ app.use("/api/v1", routes);
 // use custom error handler
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 6035;
+const PORT = process.env.PORT || 7048;
 
 // Create HTTP server
 const server = http.createServer(app);
