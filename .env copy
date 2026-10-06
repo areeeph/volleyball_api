@@ -1,8 +1,8 @@
 NODE_ENV=development
 PORT=7048
 
-MONGO_URI=
+MONGO_URI=mongodb+srv://aliareef17_db_user:Dyk2svkhSIISapns@council.ollw7ds.mongodb.net/volley?retryWrites=true&w=majority
 
-JWT_SECRET=
-JWT_EXPIRE=
-JWT_COOKIE_EXPIRE=
+JWT_SECRET=daffd_45tdgaJKDFJSvdcvd3dcdvfr
+JWT_EXPIRE=6000d
+JWT_COOKIE_EXPIRE=6000
