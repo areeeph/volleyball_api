@@ -33,6 +33,20 @@ const ScoreSchema = new mongoose.Schema(
         },
       },
     ],
+    topTen: [
+      {
+        score: {
+          type: Number,
+        },
+
+        team: {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: "Team",
+          required: true,
+          autopopulate: true,
+        },
+      },
+    ],
     team1: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Team",
