@@ -31,7 +31,13 @@ const app = express();
 app.use(mongoSanitize());
 
 // Set security headers
-app.use(helmet());
+app.use(
+  helmet({
+    crossOriginResourcePolicy: {
+      policy: "cross-origin",
+    },
+  }),
+);
 
 app.set("trust proxy", "127.0.0.1");
 
