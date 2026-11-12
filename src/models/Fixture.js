@@ -20,6 +20,11 @@ const FixtureSchema = new mongoose.Schema(
       required: true,
     },
 
+    division: {
+      type: String,
+      required: true,
+    },
+
     team1: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Team",
